@@ -1,0 +1,226 @@
+:root{
+    --first-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,117,1) 35%, rgba(0,212,255,1) 100%);
+    --second-color: #86888d;
+    --third-color : #d9e1eb;
+    --forth-color: #ffffff;
+    --fifth-color: #e5e8ee;
+    --sixth-color: #000000;
+    --seventh-color: #c4c4c4;
+    }
+    
+    a{
+    text-decoration: none;
+    }
+    
+    body{
+        background: #ffffff; /* Burası örnektir, kırmızı bir renk atanmıştır */
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    /* Üst navigasyon çubuğunu ayarlar */
+    nav.navbar{
+    border-bottom: 1px solid #EAEAEA;
+    }
+    
+    nav.navbar .navbar-item{
+    margin-right: 12px;
+    }
+    
+    /* İçerik bölümü */
+    .content{
+    margin-top: 60px;
+    }
+    
+    .content .post{
+    text-align: center;
+    background: var(--third-color);
+    padding: 20px 22px;
+    border-radius: 1.5em;
+    margin-bottom: 50px;
+    transition: 0.3s;
+    width: 93%;
+    outline: 10px solid var(--second-color);
+    }
+    
+    .post .post-image{
+    width: 100%;
+    }
+    
+    .post .post-image img{
+    width: 75%;
+    border-radius: 1.5em;
+    height: 400px;
+    filter: drop-shadow(8px 8px 10px rgb(24, 24, 24));
+    filter: grayscale(30%);
+    margin-top: 30px;
+    outline: 8px solid var(--second-color);
+    
+    }
+    
+    .post .post-title{
+    margin: 40px 0;
+    }
+    
+    .post .post-title a{
+    color: var(--sixth-color);
+    }
+    
+    .post .post-details button.btn-custom{
+    background: var(--first-color);
+    color: var(--fifth-color);
+    border: 1px solid var(--first-color);
+    border-radius: 1.5em;
+    font-size: 16px;
+    width: 110px;
+    margin-bottom: 10px;
+    padding: 15px 10px;
+    transition: 0.3s;
+    }
+    
+    .post .post-details .post-info{
+    color: var(--second-color);
+    }
+    
+    .post .post-details .post-info span{
+    margin-left: 10px;
+    }
+    
+    .post .post-details .post-info span i{
+    margin-left: 30px;
+    padding: 10px;
+    }
+    
+    .post .post-details .postContent{
+        text-align: justify;
+        margin: 10px auto;
+    width: 50em;
+    }
+    
+    /* Yan çubuk kategorileri ve son postalar */
+    .categories{
+        background: var(--first-color);
+        border-bottom: 1px solid #ffffff;
+        border-radius: 1.5em;
+        padding: 20px 10px;
+        margin-bottom: 30px;
+        outline: 5px solid var(--second-color);
+    }
+    
+    .categories{
+        background: #ffffff;
+        border-bottom: 1px solid #2c3149;
+        border-radius: 1.5em;
+        padding: 20px 10px;
+        margin-bottom: 30px;
+        outline: 5px solid var(--second-color);
+    }
+    
+    .categories ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+    
+    .categories ul li{
+    background: var(--first-color);
+    margin: 8px 5px;
+    padding: 5px 10px;
+    border-radius: 2px;
+    border-radius: 1.5em; 
+    }
+    
+    .categories ul li a{
+    color: #FFF;
+    }
+    
+    .last-posts{
+    background: var(--first-color);
+    border: 1px solid #ffffff;
+    border-radius: 1.5em;
+    padding: 20px 10px ;
+    outline: 5px solid var(--second-color);
+    }
+    
+    .last-posts h4{
+    text-align: center;
+    font-weight: bold;
+    }
+    
+    .last-posts ul{
+    list-style: none;
+    margin-top: 10px;
+    padding: 0;
+    }
+    
+    .last-posts ul li{
+    border-bottom: 1px solid var(--second-color);
+    margin: 15px 0;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 15px;
+    }
+    
+    .last-posts ul li:first-child{
+    border-top: 1px solid var(--second-color);
+    }
+    
+    .last-posts ul li:last-child{
+    border-bottom: 0;
+    }
+    
+    .last-posts ul li .span-image{
+    margin-left: 10px;
+    }
+    
+    .last-posts ul li .span-image img{
+    width: 40%;
+    height: 80px;
+    border-radius: 1.2em;
+    margin: 15px 15px;
+    filter: drop-shadow(8px 8px 10px rgb(24, 24, 24));
+    filter: grayscale(30%);
+    outline: 4px solid var(--second-color);
+    
+    }
+    
+    .last-posts ul li a{
+    color: var(--first-color);
+    }
+    
+    
+    /* Giriş sayfası */
+    .login{
+    width: 400px;
+    margin: 63px auto;
+    }
+    .login h5{
+    color: var(--fifth-color);
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    }
+    
+    .login input{
+    background: var(--fifth-color);
+    padding: 13px 13px;
+    transition: 0.3s;
+    }
+    
+    .login label{
+    color: var(--fifth-color);
+    margin-bottom: 15px;
+    }
+    
+    .login button{
+    background: rgb(60, 57, 74);
+    color: var(--fifth-color);
+    border: 2px solid var(--third-color);
+    border-radius: 1em;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    transition: 0.3s;
+    margin: 0 auto;
+    display: block;
+    }
+   

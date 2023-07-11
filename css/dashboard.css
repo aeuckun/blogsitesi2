@@ -1,0 +1,89 @@
+:root{
+    --first-color: #4b6d8a;
+    --second-color: #6e7076;
+    --third-color : #d1dbea;
+    --forth-color: #d8d8d8;
+    --fifth-color: #f1f4fb;
+    --sixth-color:  #101010;
+    --seventh-color: #a0b9ed;
+}
+
+a{
+    text-decoration: none;
+}
+
+<style>
+    #side-area {
+        color: white;
+    }
+</style>
+
+
+#side-area{
+    background: rgb(43,47,51);
+    color: var(--fifth-color);
+    padding: 30px 0;
+}
+
+#side-area h4{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#side-area ul{
+    list-style: none;
+    padding: 0;
+}
+
+#side-area ul li{
+    background: var(--first-color);
+    margin: 8px 5px;
+    padding: 12px 15px;
+    border-radius: 2px;
+    border-radius: 1.5em;
+}
+
+#side-area ul li a{
+    color: var(--fifth-color);
+}
+
+#side-area #menu li{
+    background: var(--second-color);
+}
+
+#main-area{
+    margin-top: 20px;
+}
+
+/* Kategorileri Başlat */
+
+.add-category{
+    margin: 30px 20px;
+    color: var(--fifth-color);
+    font-size: 17px;
+}
+
+.add-category input{
+    background: var(--fifth-color);
+    padding: 10px 10px;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+
+.btn-custom{
+    background: var(--first-color);
+    color: var(--fifth-color);
+    border: 1px solid var(--first-color);
+    border-radius: 1.1em;
+    padding: 5px 10px;
+    width: 100px;
+}
+
+/* Tablo */
+
+.display-cat table{
+    color: var(--fifth-color);
+}
+
+/* Kategorileri Bitir */
